@@ -1,0 +1,10 @@
+Package: liblzo2-2-udeb
+Source: lzo2
+Version: 2.10-0.1
+Architecture: amd64
+Maintainer: Peter Eisentraut <petere@debian.org>
+Installed-Size: 462
+Depends: libc6-udeb (>= 2.28)
+Section: debian-installer
+Priority: optional
+Description: data compression library

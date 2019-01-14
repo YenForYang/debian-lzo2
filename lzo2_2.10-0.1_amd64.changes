@@ -1,0 +1,41 @@
+Format: 1.8
+Date: Tue, 01 May 2018 19:14:56 +0200
+Source: lzo2
+Binary: liblzo2-dev liblzo2-2 liblzo2-2-udeb
+Built-For-Profiles: nobiarch nocheck nodoc
+Architecture: amd64
+Version: 2.10-0.1
+Distribution: unstable
+Urgency: medium
+Maintainer: Peter Eisentraut <petere@debian.org>
+Changed-By: Stephen Kitt <skitt@debian.org>
+Description:
+ liblzo2-2  - data compression library
+ liblzo2-2-udeb - data compression library (udeb)
+ liblzo2-dev - data compression library (development files)
+Closes: 782099
+Changes:
+ lzo2 (2.10-0.1) unstable; urgency=medium
+ .
+   * Non-maintainer upload.
+   * New upstream release, with pkg-config support.
+   * Don’t depend on libc6-dev, it’s pulled in by build-essential anyway
+     (closes: #782099).
+Checksums-Sha1:
+ ce75ba477a8a32a42ad38381c230778ece78202b 100388 liblzo2-2-dbgsym_2.10-0.1_amd64.deb
+ f571191c4c4cfa7bc2b11b80c7c56df0c9c31296 88476 liblzo2-2-udeb_2.10-0.1_amd64.udeb
+ 3e66bae8e6957e6170a60cdaa44db9105988c86b 99304 liblzo2-2_2.10-0.1_amd64.deb
+ f057ba5cb7a84b588250bf6adf3da2f5b4a2cd6a 627996 liblzo2-dev_2.10-0.1_amd64.deb
+ ac77a033513464d2841c14b6f29472be6e304af2 6057 lzo2_2.10-0.1_amd64.buildinfo
+Checksums-Sha256:
+ 0d51568db58d037cd01d2e9e0295e837a0d19e38a19b3e74a6e9410cc5983a22 100388 liblzo2-2-dbgsym_2.10-0.1_amd64.deb
+ ecba65b105aa2e1af3cd7de491d4d4bfffd4140c2562f2cc8cb29d57e1059018 88476 liblzo2-2-udeb_2.10-0.1_amd64.udeb
+ b7a3e478280b19ccf0c86df050b483581a281f87545c2dccf5ae444ac38f9d17 99304 liblzo2-2_2.10-0.1_amd64.deb
+ d39b4316a4ba225ccfee33345b2ed152aee828be9ff25dc906b79363096dd87d 627996 liblzo2-dev_2.10-0.1_amd64.deb
+ fdc0514a0ec93eba6839d24a7316f5ef7722062544c1c94935569d07a19ba728 6057 lzo2_2.10-0.1_amd64.buildinfo
+Files:
+ ee90c144b6f13991b082258f53e5b104 100388 debug optional liblzo2-2-dbgsym_2.10-0.1_amd64.deb
+ 7378d11e86ae27e25d555274154feabf 88476 debian-installer optional liblzo2-2-udeb_2.10-0.1_amd64.udeb
+ 4fbe9db511d557d9d72284e2a5951155 99304 libs optional liblzo2-2_2.10-0.1_amd64.deb
+ afd1a597ae7cf3dd459fad87d71d69ea 627996 libdevel optional liblzo2-dev_2.10-0.1_amd64.deb
+ f6caa46eaab0dccfcf5ca70aeebdc6ae 6057 libs optional lzo2_2.10-0.1_amd64.buildinfo

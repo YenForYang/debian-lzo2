@@ -1,0 +1,13 @@
+Package: liblzo2-2-dbgsym
+Source: lzo2
+Version: 2.10-0.1
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Peter Eisentraut <petere@debian.org>
+Installed-Size: 121
+Depends: liblzo2-2 (= 2.10-0.1)
+Section: debug
+Priority: optional
+Multi-Arch: same
+Description: debug symbols for liblzo2-2
+Build-Ids: dfbd311056b886ae87511432ef90362f84113d07
